@@ -10,7 +10,85 @@
     <link rel="stylesheet" href="assets/css/app.css">
   </head>
 <body>
+<style>
+        @media screen and (max-width: 749px){
+        .letraStilo{
+            text-align: center;
+        }
+      }
+        @media screen and (max-width: 600px){
+          .callout.large.large2 {
+          padding-right: 1px;
+          padding-left: 1px;
+          }
 
+      }
+      @media screen and (max-width:420px){
+        .callout.large.large2{
+          padding-right: 1px;
+          padding-left: 1px;
+          padding: initial;
+          }
+          
+          .spacio ,.spacio2,.spacio3,.spacio4{
+            margin-left: auto;
+            padding-right: 1px;
+        }
+        .letraStilo{
+            text-align: center;
+        }
+        .imgRedonda.imgRedonda2.imgRedonda3 {
+            width: 100px;
+            height: 100px;
+        border-radius: 800px;
+        }
+      }
+      @media screen and (max-width: 900px){
+        .cell.cell2{
+            width: 49.33333%;
+        }
+      }
+      @media screen and (max-width: 639px){
+        .cell.cell2{
+            width: 99.33333%
+        }
+      }
+      @media screen and (max-width: 857px){
+            .imgRedonda.imgRedonda2 {
+            width: 200px;
+            height: 200px;
+        border-radius: 100px;
+        }
+}
+.imagenAlto{
+    height: auto;
+    
+
+}
+.card2{
+    border: none;
+}
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+.colormodal{
+    background:rgb(205, 224, 187); 
+}
+@media screen and (max-width: 39.99875em){
+    .reveal{
+        width: 78%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 32%;
+    top: 53px;
+    height: auto;
+    }
+}
+
+</style>
 <header style="    background-color: #191919e6;" id="header" class="fixed-top">
   <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
     <button class="menu-icon" type="button" data-toggle="example-menu"></button>
@@ -35,9 +113,6 @@
             <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
             <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
         </div>
-        <style>
-
-        </style>
         <ul class="orbit-container text-center">
             <li class="is-active orbit-slide text-center">
                 <figure class="orbit-figure text-center">
@@ -58,9 +133,6 @@
                     <figcaption class="textCarr orbit-caption">Diseño de Prototipos</figcaption>
                 </figure>
             </li>
-          
-
-            
         </ul>
     </div>
 </div>
@@ -68,14 +140,10 @@
   <br>
   <br>
     <div class="row column text-center">
-      <style>
-
-
-      </style>
         <h1 class="letraStilo">Somos una Empresa Dedicada a la Tecnología</h1>
     </div>
 </div>
-<div class="callout large ">
+<div class="callout large " style="border: none;">
   <div class="media-responsive  media-object stack-for-small ">
     <div class="media-object-section ">
       <style>
@@ -96,13 +164,12 @@
            entregando a todos nuestros clientes soluciones tecnológicas completas. </p>
     </div>
   </div>
-
-  <div class="callout large ">
+  <div class="callout large large2 ">
       <div class="tabs-content" data-tabs-content="example-tabs">
           <div class="tabs-panel is-active" id="panel1">
-              <h4 class="letraStilo">BENEFICIOS</h4>
+              <h4 class="letraStilo letraStiloRespon">BENEFICIOS</h4>
               <br>
-  
+
               <div class="media-respon media-object ">
                   <div class="media-object-section spacio" >
                       <i class="tamn fi-mobile" ></i>
@@ -216,17 +283,18 @@
         </div>
     </div>
 </div>
-<div id="services" class="row column">
-    <hr class="dotted">
+<div id="services" class="row column" >
+    <br>
 </div>
-<div  class="row column text-center" >
+<div  class="row column text-center"  >
         <br>
     <h2 id="servicios" class="letraStilo" style="padding-top: 15px; padding-bottom: 20px;">Contamos con más Servicios</h2>
-    
+    <!-- #region .grid-x  639 -->
 </div>
+
 <div class="grid-container">
     <div class="grid-x grid-padding-x small-up-2 medium-up-3">
-      <div class="cell">
+      <div class="cell cell2">
         <div class="card">
       
           <div class="card-section">
@@ -236,7 +304,7 @@
           <img  src="assets/img/aplicaciones.svg">
         </div>
       </div>
-      <div class="cell">
+      <div class="cell cell2">
         <div class="card">
       
           <div class="card-section">
@@ -247,7 +315,7 @@
           <img src="assets/img/customizable.svg" >
         </div>
       </div>
-      <div class="cell">
+      <div class="cell cell2">
         <div class="card">
           <div class="card-section">
             <h4 class="letraStilo text-center"> ¿Perdió sus datos? Recuperación de Datos</h4>
@@ -262,7 +330,7 @@
           <img  class="dimen" src="assets/img/disoc2.svg" width="200"  >
         </div>
       </div>
-      <div class="cell">
+      <div class="cell cell2">
         <div class="card card">
           <div class="card-section">
             <h4 class="letraStilo text-center">Clases de - Excel, Word, PowerPoint, Prezi</h4>
@@ -271,7 +339,7 @@
           <img src="assets/img/cuaderno.svg">
         </div>
       </div>
-      <div class="cell"> 
+      <div class="cell cell2"> 
         <div class="card">
           <div class="card-section">
             <h4 class="letraStilo text-center">Instalación de Software & Sistemas Operativos</h4>
@@ -284,7 +352,7 @@
           <img class="dimen2" src="assets/img/windows.svg" width="200">
         </div>
       </div>
-      <div class="cell">
+      <div class="cell cell2">
         <div class="card">
           <div class="card-section">
             <h4 class="letraStilo text-center">Diseños y prototipos de páginas web y aplicativos móviles</h4>
@@ -304,50 +372,20 @@
     <h2 class="letraStilo">Desarrolla tus proyectos con nosotros </h2>
     
 </div>
-<style>
-.imagenAlto{
-    height: auto;
-    
-
-}
-.card2{
-    border: none;
-}
-.imgRedonda {
-    width:300px;
-    height:300px;
-    border-radius:150px;
-}
-.colormodal{
-    background:rgb(205, 224, 187); 
-}
-@media screen and (max-width: 39.99875em){
-    .reveal{
-        width: 78%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 32%;
-    top: 53px;
-    height: auto;
-    }
-}
-</style>
 <div class="grid-container" style="padding-top: 30px;">
-    <div class="grid-x grid-padding-x small-up-2 medium-up-3">
-        <div class="cell">
+    <div class="grid-x grid-padding-x grid-padding-x2 small-up-2 medium-up-3">
+        <div class="cell cell3">
             <div class="card card2">
-                <img class="imgRedonda image imagenAlto" data-toggle="animatedModal10" src="assets/img/diseño.jpg" >
+                <img class="imgRedonda  imgRedonda2 imgRedonda3 image imagenAlto" data-toggle="animatedModal10" src="assets/img/diseño.jpg" >
                 <div class=" card-section text-center">
                 <h4 class="letraStilo">Diseño personalizado</h4>
             </div>
 
         </div>
     </div>
-
-    <div class="cell">
+    <div class="cell cell3">
         <div class="card card2">
-            <img class="imgRedonda imagenAlto" data-toggle="animatedModal11" src="assets/img/consultoria.jpg"    >
+            <img class="imgRedonda imgRedonda2 imgRedonda3 imagenAlto" data-toggle="animatedModal11" src="assets/img/consultoria.jpg"    >
                 <div class=" card-section text-center">
             <h4 class="letraStilo">Consultoría</h4>
 
@@ -356,7 +394,7 @@
 </div>
 <div class="cell">
     <div class="card card2">
-        <img class="imgRedonda imagenAlto" data-toggle="animatedModal12" src="assets/img/soporte.jpg">
+        <img class="imgRedonda imgRedonda2 imgRedonda3 imagenAlto" data-toggle="animatedModal12" src="assets/img/soporte.jpg">
         <div class=" card-section text-center">
         <h4 class="letraStilo">Soporte</h4>
     </div>
@@ -365,15 +403,13 @@
 
 <div class="cell-uni cell ">
         <div class="card card2">
-            <img class="imgRedonda" data-toggle="animatedModal13" src="assets/img/precio.jpg">
+            <img class="imgRedonda imgRedonda2  imgRedonda3 " data-toggle="animatedModal13" src="assets/img/precio.jpg">
                 <div class=" card-section text-center">
             <h4 class="letraStilo">Ventajas a precios accesibles </h4>
         </div>
     </div>
     </div>
 </div>
-
-
 </div>
 <div class="colormodal  reveal" id="animatedModal10" data-reveal data-close-on-click="true" data-animation-in="spin-in"
     data-animation-out="spin-out">
